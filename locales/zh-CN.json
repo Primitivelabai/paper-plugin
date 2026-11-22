@@ -1,0 +1,17 @@
+{
+  "displayName": "primitive paper",
+  "shortDescription": "与智能体共建文档",
+  "longDescription": "一张纸,可以变成文档、幻灯片、画布、网站、表单和平面图,让你和你的智能体并肩创作。一切都是 markdown,未经你同意不会落地任何更改,每次更改都可以撤销。由珀斯的精品 AI 实验室 primitive ai 打造。",
+  "developerName": "primitive ai",
+  "tryPrompts": [
+    "给我看看我的 paper 里能做什么",
+    "在 paper 里为我的房屋建造起草一页计划"
+  ],
+  "skillOverrides": {
+    "getting-started": { "displayName": "快速上手", "description": "介绍 primitive paper,带你快速开始。" },
+    "work-together": { "displayName": "协作修改", "description": "按 paper 的方式修改内容,先征得你的同意。" }
+  },
+  "mcpOverrides": {
+    "paper": { "displayName": "primitive paper", "description": "读取并在你的 paper 工作区中创作,通过浏览器登录。" }
+  }
+}

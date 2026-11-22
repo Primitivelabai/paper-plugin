@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "au.com.primitiveai/paper",
+  "title": "primitive paper",
+  "description": "Docs, slides, canvases, sites, forms and floor plans you build alongside your agent.",
+  "repository": {
+    "url": "https://github.com/Primitivelabai/paper-plugin",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "websiteUrl": "https://primitivepaper.com",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/Primitivelabai/paper-plugin/main/assets/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://paper.primitiveai.com.au/mcp"
+    }
+  ]
+}

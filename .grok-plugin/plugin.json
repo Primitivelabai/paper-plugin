@@ -1,0 +1,32 @@
+{
+  "name": "primitive-paper",
+  "displayName": "primitive paper",
+  "version": "0.1.0",
+  "description": "One sheet of paper that becomes docs, slides, canvases, sites, forms and floor plans, made for you and your agent to build side by side. Everything's markdown, nothing lands without your OK, and every change can be undone.",
+  "author": {
+    "name": "primitive ai",
+    "email": "hello@primitiveai.com.au"
+  },
+  "homepage": "https://primitivepaper.com",
+  "repository": "https://github.com/Primitivelabai/paper-plugin",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "paper",
+    "primitive-paper",
+    "documents",
+    "markdown",
+    "sheets",
+    "slides",
+    "sites",
+    "forms",
+    "canvas",
+    "floor-plans",
+    "workspace",
+    "human-in-the-loop",
+    "mcp",
+    "oauth"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/"
+}

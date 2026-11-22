@@ -1,0 +1,11 @@
+{
+  "name": "primitive-paper",
+  "version": "0.1.0",
+  "description": "One sheet of paper that becomes docs, slides, canvases, sites, forms and floor plans, made for you and your agent to build side by side.",
+  "mcpServers": {
+    "paper": {
+      "httpUrl": "https://paper.primitiveai.com.au/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

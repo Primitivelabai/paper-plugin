@@ -1,0 +1,33 @@
+{
+  "name": "primitive-paper",
+  "version": "0.1.0",
+  "description": "One sheet of paper that becomes docs, slides, canvases, sites, forms and floor plans, built side by side with your agent.",
+  "keywords": ["paper", "markdown", "docs", "slides", "canvas", "sites", "forms", "floor-plans"],
+  "author": { "name": "primitive ai", "email": "hello@primitiveai.com.au" },
+  "homepage": "https://primitivepaper.com",
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "mcpServers": {
+    "paper": { "url": "https://paper.primitiveai.com.au/mcp" }
+  },
+  "interface": {
+    "displayName": "primitive paper",
+    "shortDescription": "Docs with your agent",
+    "longDescription": "One sheet of paper that becomes docs, slides, canvases, sites, forms and floor plans, made for you and your agent to build side by side. Everything's markdown, nothing lands without your OK, and every change can be undone. Made by primitive ai, a boutique AI lab in Perth.",
+    "developerName": "primitive ai",
+    "websiteURL": "https://primitivepaper.com",
+    "tryPrompts": [
+      "Show me what I can do in my paper",
+      "Draft a one-page plan for my house build in paper"
+    ],
+    "defaultLocale": "en-US",
+    "locales": "./locales/",
+    "skillOverrides": {
+      "getting-started": { "displayName": "Getting started", "description": "Introduces primitive paper and gets you going." },
+      "work-together": { "displayName": "Work together", "description": "Changes things in paper the paper way, asking first." }
+    },
+    "mcpOverrides": {
+      "paper": { "displayName": "primitive paper", "description": "Read and build in your paper workspace. Sign in through your browser." }
+    }
+  }
+}
